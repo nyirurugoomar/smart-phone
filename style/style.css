@@ -132,3 +132,11 @@ nav {
   left: 0;
   top: 0;
 }
+.footer {
+  text-align: center;
+  margin-top: 50%;
+}
+.footer p a {
+  text-decoration: none;
+  color: white;
+}
