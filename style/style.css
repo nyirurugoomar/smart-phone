@@ -138,7 +138,7 @@ ul li a:hover {
   width: 0;
   height: 0;
   border-top: 500px solid #fff;
-  border-right: 500px solid blue;
+  border-right: 500px solid rgb(209, 209, 231);
   border-bottom: 500px solid #fff;
   border-left: 500px solid #fff;
   position: absolute;
