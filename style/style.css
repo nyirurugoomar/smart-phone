@@ -11,6 +11,7 @@
   background: linear-gradient(to right, #9c27b0, #8ecdff);
 }
 nav {
+  border-bottom: 1px solid black;
   width: 80%;
   position: sticky;
   margin: 20px auto;
@@ -34,10 +35,22 @@ nav {
   margin: 0 20px;
 }
 .nav-links ul li a {
-  color: white;
+  font-size: 1.5rem;
+  color: black;
   text-decoration: none;
 }
+ul li a:hover {
+  border-bottom: 7px solid blue;
+}
 
+.log-cart {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.log-cart li a {
+  margin: 12px;
+}
 .information {
   width: 1000px;
   height: 1000px;
@@ -139,4 +152,30 @@ nav {
 .footer p a {
   text-decoration: none;
   color: white;
+}
+.phone-shop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin: 5px 10%;
+}
+.phone-shop img {
+  height: 400px;
+}
+.phone-detail {
+  margin: 10px 30px;
+  background: #ecf0f1;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 7px solid black;
+  width: 20%;
+  margin-top: 20px;
+}
+.phone-detail :hover {
+  padding: 50px;
+  transition: 0.5s;
+}
+.phone-specification {
+  font-size: 1rem;
+  font-weight: bold;
 }
