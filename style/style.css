@@ -159,17 +159,22 @@ ul li a:hover {
   margin-bottom: 30px;
 }
 .phone-shop img {
-  height: 400px;
+  height: 300px;
+  width: 266px;
 }
 .phone-detail {
   margin: 10px 30px;
-  background: #ecf0f1;
+  background: #ffffff;
   text-align: center;
   padding: 40px;
   text-align: center;
   border-bottom: 7px solid black;
   width: 20%;
   margin-top: 20px;
+}
+.phone-detail:hover {
+  background: #f3eeee;
+  buttom
 }
 /* .phone-detail :hover {
   padding: 30px;
@@ -182,8 +187,8 @@ ul li a:hover {
 .cart-buy img {
   display: inline-block;
   margin-top: 40px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 40px 40px;
   color: white;
 }
@@ -192,5 +197,7 @@ ul li a:hover {
   border-width: 4px;
 }
 .container-phone {
-  margin-top: 6%;
+  margin-top: 1%;
+  padding: 90px;
+  margin-right: 20%;
 }
