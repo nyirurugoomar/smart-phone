@@ -168,12 +168,13 @@ ul li a:hover {
   text-align: center;
   padding: 40px;
   text-align: center;
-  border-bottom: 7px solid black;
+  border-bottom: 6px solid gray;
   width: 20%;
   margin-top: 20px;
 }
+
 .phone-detail:hover {
-  background: #f3eeee;
+  background: rgb(247, 247, 247);
 }
 /* .phone-detail :hover {
   padding: 30px;
@@ -192,11 +193,10 @@ ul li a:hover {
   color: white;
 }
 .cart-buy a :hover {
-  border: 0.1px solid;
-  border-width: 4px;
+  border: 3px solid black;
 }
 .container-phone {
   margin-top: 1%;
-  padding: 90px;
-  margin-right: 20%;
+  padding: 10px;
+  margin-right: 10%;
 }
